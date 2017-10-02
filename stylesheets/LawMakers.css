@@ -1,1 +1,59 @@
 /*if we use css*/
+
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #2B2D42
+}
+
+li{
+  color: white;
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  padding: 50px 50px;
+  text-decoration: none;
+}
+
+
+.option h1{
+  font-family: 'Caeat', cursive;
+  font-size: 50px;
+  margin-bottom: 0;
+  margin-top: 0 auto;
+}
+
+.option h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.option1,.option2,.option3{
+  width: 50px;
+  font-size: 25px;
+  font-style: bold;
+  position: absolute;
+}
+
+.option{
+  position: relative;
+  left: auto;
+}
+
+.option1{
+  right: 450px;
+}
+
+.option2{
+  right: 320px;
+  word-spacing: normal;
+  white-space: nowrap;
+}
+
+.option3{
+  right: 150px;
+}
