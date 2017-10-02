@@ -19,41 +19,41 @@ li a{
 }
 
 
-.option h1{
+.company-name h1{
   font-family: 'Caeat', cursive;
   font-size: 50px;
   margin-bottom: 0;
   margin-top: 0 auto;
 }
 
-.option h2{
+.company-name h2{
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   margin-top: 0;
 }
 
-.option1,.option2,.option3{
+.home,.about,.contact{
   width: 50px;
   font-size: 25px;
   font-style: bold;
   position: absolute;
 }
 
-.option{
+.company-name{
   position: relative;
   left: auto;
 }
 
-.option1{
+.home{
   right: 450px;
 }
 
-.option2{
+.about{
   right: 320px;
   word-spacing: normal;
   white-space: nowrap;
 }
 
-.option3{
+.contact{
   right: 150px;
 }
