@@ -18,6 +18,18 @@ li a{
   text-decoration: none;
 }
 
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+footer{
+  background-color: #2B2D42;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+  overflow: hidden;
+}
 
 .company-name h1{
   font-family: 'Caeat', cursive;
@@ -39,6 +51,32 @@ li a{
   position: absolute;
 }
 
+/*.content-intro{
+  position: absolute;
+  left: 150px;
+}*/
+.content-intro{
+  background-image: url("http://www.parsalawgroup.com/wp-content/uploads/2016/04/DomeWebsiteBackground23.jpg");
+  margin: 0 auto;
+  padding: 100px;
+  text-align: center;
+  font-style: bold;
+  color: black;
+  overflow: auto;
+}
+
+.content-intro h1{
+  text-shadow: 2px 2px;
+  font-size: 50px;
+}
+
+
+.content-intro h2{
+  font-size: 40px;
+
+}
+
+
 .company-name{
   position: relative;
   left: auto;
@@ -56,4 +94,20 @@ li a{
 
 .contact{
   right: 150px;
+}
+
+
+.button {
+  background-color: white;
+  color: black;
+  border: none;
+  border-top: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor:pointer;
+  overflow: auto;
 }
