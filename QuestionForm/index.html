@@ -7,6 +7,11 @@
     <link rel="stylesheet" type="text/css" href="/Users/nguyentran/CPSC-473-Project-1/stylesheets/LawMakers.css">
     <link rel="https://fonts.googleapis.com/css?family=Caveat|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <style>
+      form :focus:required:invalid {
+        border-color: #a94442;
+      }
+    </style>
   </head>
   <body class="container">
     <header class="top-banner">
@@ -27,15 +32,15 @@
           <form data-question-make="form">
             <div class="form-group">
               <label for="makeQuestion">Question</label>
-              <input class="form-control" name="question" id="makeQuestion" autofocus>
+              <input class="form-control" name="question" id="makeQuestion" autofocus required pattern="[a-zA-Z\s]+" />
             </div>
             <div class="form-group">
               <label for="detail">Details</label>
-              <textarea class="form-control" rows="5" id="detail" autofocus></textarea>
+              <textarea class="form-control" rows="5" id="detail" autofocus required></textarea>
             </div>
             <div class="form-group">
               <label for="topic">Legal Topic:</label>
-              <select class="form-control" id="topic" autofocus>
+              <select class="form-control" id="topicType" name="topic" autofocus>
                 <option value="default">Select</option>
                 <option value="business">Business Law</option>
                 <option value="criminal">Criminal Law</option>
@@ -46,7 +51,7 @@
             </div>
             <div class="form-group">
               <label for="state">State/Province:</label>
-              <select class="form-control" id="state" autofocus>
+              <select class="form-control" id="stateLocation" name="state" autofocus>
                 <option value="default">Select</option>
                 			<option value="AK">Alaska</option>
                 			<option value="AL">Alabama</option>
@@ -104,15 +109,15 @@
             </div>
             <div class="form-group">
               <label for="emailInput">Email</label>
-              <input class="form-control" type="email" name="emailAddress" id="emailInput" value="" placeholder="email@gmail.com" autofocus>
+              <input class="form-control" type="email" name="emailAddress" id="emailInput" value="" placeholder="email@gmail.com" autofocus required>
             </div>
             <div class="form-group">
               <label for="fullname">Full Name</label>
-              <input class="form-control" name="name" id="fullname" autofocus>
+              <input class="form-control" name="name" id="fullname" autofocus required pattern="[a-zA-Z\s]+" />
             </div>
-            <div class="checkbox">
+            <!-- <div class="checkbox">
                 <label><input type="checkbox" value="">I would like to remain anonymous</label>
-            </div>
+            </div> -->
             <button type="submit" class="btn btn-default">Submit</button>
 
           </form>
