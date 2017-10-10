@@ -39,6 +39,11 @@ body{
 
 
 /*header*/
+
+.top-banner{
+	margin: 0 auto;
+	padding-bottom: 0;
+}
 .top-banner ul{
   list-style-type: none;
   overflow: hidden;
@@ -121,6 +126,7 @@ footer{
 	/*border-width: 1px;*/
 	background-color: #EDF2F4;
   margin: 0;
+	padding: 60px;
 
 }
 
