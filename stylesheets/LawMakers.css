@@ -28,7 +28,10 @@ footer{
   text-align: center;
   margin: 0 auto;
   padding: 30px;
-  overflow: hidden;
+  max-width: 2000px;
+  overflow: auto;
+	padding: 30px;
+  color:white;
 }
 
 .company-name h1{
@@ -63,6 +66,7 @@ footer{
   font-style: bold;
   color: black;
   overflow: auto;
+  max-height: 1500px;
 }
 
 .content-intro h1{
@@ -95,6 +99,12 @@ footer{
 .contact{
   right: 150px;
 }
+
+.top-banner{
+  overflow: auto;
+  margin: 0;
+}
+
 
 
 .button {
