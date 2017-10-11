@@ -48,16 +48,16 @@
           value: questionOrder.emailAddress
         });
 
-        var description = questionOrder.question + ' ';
-        description += ' (' + questionOrder.detail + ')';
+        var description =  'Question: ' + questionOrder.question + '\n';
+        description += '\nDetail: ' + questionOrder.detail + '\n';
 
-        description += ' (' + questionOrder.emailAddress + ')';
-        description += ' (' + questionOrder.name + ')';
+        description += 'Email: ' + questionOrder.emailAddress + '\n';
+        description += 'customerName: ' + questionOrder.name + '\n';
         if (questionOrder.topic) {
-          description += questionOrder.topic + ' ';
+          description += 'Topic: ' + questionOrder.topic + '\n';
         }
         if(questionOrder.state){
-          description += questionOrder.state + ' ';
+          description += 'State: ' + questionOrder.state + '\n';
         }
 
         $label.append($checkbox);
