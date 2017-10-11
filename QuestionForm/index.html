@@ -36,7 +36,7 @@
             </div>
             <div class="form-group">
               <label for="detail">Details</label>
-              <textarea class="form-control" rows="5" id="detail" autofocus required></textarea>
+              <textarea class="form-control" rows="5" id="details" name ="detail" autofocus required></textarea>
             </div>
             <div class="form-group">
               <label for="topic">Legal Topic:</label>
@@ -125,6 +125,13 @@
         </div>
 
       </div>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h4>Pending Orders: </h4>
+          <div data-question-make="checklist">
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer>
@@ -132,6 +139,15 @@
       <h3> We are non-profit organization to help you answer your legal questions </h3>
       <h4> 12345 Lawyer St, Garden Grove, CA 92840</h4>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+    <script src="scripts/validation.js" charset="utf-8"></script>
+    <script src="scripts/datastore.js" charset="utf-8"></script>
+    <script src="scripts/store.js" charset="utf-8"></script>
+    <script src="scripts/checklist.js" charset="utf-8"></script>
+    <script src="scripts/formhandler.js" charset="utf-8"></script>
+    <script src="scripts/remotedatastore.js" charset="utf-8"></script>
+    <script src="scripts/main.js" charset="utf-8"></script>
 
   </body>
 </html>
