@@ -2,7 +2,7 @@
   'use strict';
   var FORM_SELECTOR = '[data-question-make="form"]';
   var CHECKLIST_SELECTOR = '[data-question-make="checklist"]';
-  var SERVER_URL = 'http://localhost:2403/coffeeorders';
+  var SERVER_URL = 'http://localhost:2403/questionstore';
   var App = window.App;
   var Store = App.Store;
   var DataStore = App.DataStore;

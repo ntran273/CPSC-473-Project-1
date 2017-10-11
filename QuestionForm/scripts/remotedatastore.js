@@ -47,10 +47,11 @@
       contentType: 'application/json',
       data: JSON.stringify({
         emailCustomer: key,
-        coffeeOrder: val.coffee,
-        size: val.size,
-        flavor: val.flavor,
-        strength: val.strength
+        questionOrder: val.question,
+        questionDetail: val.detail,
+        questionType: val.topic,
+        state: val.state,
+        customerName: val.name
       }),
       success: function() {},
       error: function(xhr) {
