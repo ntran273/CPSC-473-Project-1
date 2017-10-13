@@ -28,4 +28,7 @@ For installation and configuration:
     $cd LawMakers
     $dpd -d
 For Users:
-1. 
+  The Home page is able to access the About Us page, the Ask A Question page, and the Contact page.
+  The About Us page has information about all the lawyers that use the application and can be asked questions.
+  The Contact Us page
+  The Question page has areas to ask a question, give any additional details, choose a legal topic, choose a state or province, provide an email, and give the users full name.
