@@ -75,7 +75,7 @@
 				password: password
 			}, function(session, error) {
 				if (error) {
-					alert(error.message);
+					alert('You are not authorized. This page is for lawyer only.');
 				} else {
 					location.href = "welcome.html";
 				}

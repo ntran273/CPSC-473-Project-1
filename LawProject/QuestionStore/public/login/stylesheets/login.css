@@ -20,7 +20,7 @@ li a{
 
 body{
   font-family: 'Open Sans', sans-serif;
-  margin: 0;
+  margin: auto;
 }
 
 footer{
@@ -79,9 +79,12 @@ footer{
 }
 
 /* Create a style for form based on w3schools.com*/
+div.cd h1{
+  font-size: 50px;
+}
 
 div.cd{
-  background-image: url("https://www.taurho-transcribes.co.uk/wp-content/uploads/2017/02/Login-background-image-resized.png");
+  background-image: url("https://ak5.picdn.net/shutterstock/videos/9511835/thumb/1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 200px;
