@@ -47,7 +47,7 @@ footer{
   margin-top: 0;
 }
 
-.home,.about,.contact{
+.home,.about,.login{
   width: 50px;
   font-size: 25px;
   font-style: bold;
@@ -98,12 +98,12 @@ footer{
   white-space: nowrap;
 }
 
-.contact{
+.login{
   right: 150px;
 }
 
 .top-banner{
-  overflow: auto;
+  overflow:auto;
   margin: 0;
 }
 
