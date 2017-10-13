@@ -54,35 +54,6 @@ footer{
   position: absolute;
 }
 
-/*.content-intro{
-  position: absolute;
-  left: 150px;
-}*/
-.content-intro{
-  background-image: url("http://www.parsalawgroup.com/wp-content/uploads/2016/04/DomeWebsiteBackground23.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 250px;
-  text-align: center;
-  font-style: bold;
-  color: black;
-  overflow: auto;
-}
-
-.content-intro h1{
-  text-shadow: 2px 2px;
-  font-size: 50px;
-}
-
-
-.content-intro h2{
-  font-size: 40px;
-
-}
-
-
 .company-name{
   position: relative;
   left: auto;
@@ -107,27 +78,33 @@ footer{
   margin: 0;
 }
 
+/* Create a style for form based on w3schools.com*/
 
+div.cd{
+  background-image: url("https://www.taurho-transcribes.co.uk/wp-content/uploads/2017/02/Login-background-image-resized.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+}
 
-/*.button {
-  border: none;
-  border-top: 5px;
-  padding: 15px 32px;
+input[type=text], input[type=password]{
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  margin: auto;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  margin: 4px 2px;
-  cursor:pointer;
-  overflow: auto;
-}*/
+}
 
-.button[type=submit]{
+button[type=submit]{
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 20%;
+  width: 40%;
+
 }
