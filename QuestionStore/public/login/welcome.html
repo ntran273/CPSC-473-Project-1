@@ -26,5 +26,42 @@
       });
     });
   </script>
+  <h2>Messages:</h2>
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <table style="width:100%" pending-questions="checklist">
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Question Type</th>
+          <th>State</th>
+          <th></th>
+          <th></th>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div id="questionDetails" visibility="hidden">
+  <h3><br>Message Details <button id="close">x</button></h3>
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <h5>Question</h5>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <span class="question-title"></span>
+          </div>
+        </div>
+        <h5>Question Details</h5>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <span class="question-details"></span>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
 </body>
+<script type="text/javascript" src="scripts/remotedatastore.js"></script>
+<script type="text/javascript" src="scripts/populate.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
 </html>
