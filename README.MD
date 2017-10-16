@@ -10,8 +10,21 @@ Nguyen Tran ntran272@csu.fullerton.edu
 
 SangYong Jin sangyongjin@csu.fullerton.edu
 
+# Overview of the Project
 
-Project Scope
+1. Project Scope
+
+2. Installation and Configuration
+
+3. User Documentation
+
+4. Technology We Used
+
+5. Reference Links
+
+# Project Scope
+
++ Project scope
 
 This website is providing services about law and legal issues. Users can ask questions
 including details and types of laws by filling out the online submission form.
@@ -56,3 +69,24 @@ The Login page is used to log in.
 The Welcome page is used to see all messages details from everyone who submits question form.
 
 ——-
+#Technology We Used
+
+Languages
++ HTML5
++ Javascript
++ CSS3
+
+Front-End
++ Bootstraip 3.3.7
++ Google Font APIs
+
+Back-End
++ Ajax
++ Deployd
++ MongoDB
++ NodeJs
+
+Development Tools
++ Atom
+
+D
