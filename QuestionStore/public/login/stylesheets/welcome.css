@@ -78,7 +78,7 @@ footer{
   margin: 0;
 }
 
-/* Create a style for form based on w3schools.com*/
+
 div.cd h1{
   font-size: 50px;
 }
@@ -90,19 +90,9 @@ div.cd{
   padding: 200px;
 }
 
-input[type=text], input[type=password]{
-  width: 40%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: block;
-  margin: auto;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  text-align: center;
-}
 
-button[type=submit]{
-  background-color: #4CAF50;
+td button{
+  background-color: #008CBA;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -111,3 +101,32 @@ button[type=submit]{
   width: 40%;
 
 }
+
+.container button{
+  background-color: #f44336;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+
+table {
+    border: 1px solid black;
+
+}
+
+th {
+    background-color: #008CBA;
+    color: white;
+    border-bottom: 1px solid #ddd;
+
+}
+
+td{
+  border-bottom: 1px solid #ddd;
+
+}
+tr:hover {background-color: #f5f5f5}
+tr:nth-child(even) {background-color: #f2f2f2}
