@@ -18,7 +18,7 @@
   var formHandler = new FormHandler(FORM_SELECTOR);
   formHandler.addSubmitHandler(function(data) {
     myStore.createOrder.call(myStore, data);
-    location.href='thankyou.html';
+    location.href = 'thankyou.html';
   });
 
   formHandler.addInputHandler(Validation.isCompanyEmail);

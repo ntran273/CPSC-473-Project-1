@@ -14,31 +14,31 @@
     }
   }
 
-  FormHandler.prototype.addSubmitHandler = function (fn){
-      console.log('Setting submit handler for form');
-      this.$formElement.on('submit', function(event){
-        event.preventDefault();
+  FormHandler.prototype.addSubmitHandler = function(fn) {
+    console.log('Setting submit handler for form');
+    this.$formElement.on('submit', function(event) {
+      event.preventDefault();
 
-        var data = {};
-        $(this).serializeArray().forEach(function (item){
-          data[item.name] = item.value;
-          console.log(item.name + ' is ' + item.value);
-        });
-
-        fn(data);
-        this.reset();
-        this.elements[0].focus();
+      var data = {};
+      $(this).serializeArray().forEach(function(item) {
+        data[item.name] = item.value;
+        console.log(item.name + ' is ' + item.value);
       });
-    };
 
-  FormHandler.prototype.addInputHandler = function(fn){
+      fn(data);
+      this.reset();
+      this.elements[0].focus();
+    });
+  };
+
+  FormHandler.prototype.addInputHandler = function(fn) {
     console.log('Setting input handler for form');
-    this.$formElement.on('input','[name="emailAddress"]', function (event){
+    this.$formElement.on('input', '[name="emailAddress"]', function(event) {
       var emailAddress = event.target.value;
       var message = '';
-      if(fn(emailAddress)){
+      if (fn(emailAddress)) {
         event.target.setCustomValidity('');
-      }else{
+      } else {
         message = emailAddress + ' is not an authorized email address!'
         event.target.setCustomValidity(message);
       }
