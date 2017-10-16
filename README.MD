@@ -74,10 +74,15 @@ The Question page has areas to ask a question, give any additional details, choo
 
 For Lawyers:
 
-Lawyers have the ability to see all messages from users, register an account and login.
-The Register page is used to sign up an account.
-The Login page is used to log in.
-The Welcome page is used to see all messages details from everyone who submits question form.
+Login Page
++ Sign In
++ Sign Out
++ Submit and redirect to welcome page
+
+Register Page
++ Create username and password
++ Submite Redirect user to the login page
+
 
 # Technology We Used
 
