@@ -30,7 +30,7 @@ This website is providing services about law and legal issues. Users can ask que
 including details and types of laws by filling out the online submission form.
 Lawyers have the ability to create an account and login to see all questions that users have sent.
 To login, lawyers must register an account on register.html before logging in.
-————
+————--------------------------
 
 #Assume user is using Debian-based Linux system
 
@@ -50,7 +50,9 @@ Move all contents of the public and resources folder to the new ones generated b
 At this point localhost:2403/dashboard should be open in your browser.
 Change the url to: localhost:2403/login/register.html
 Register a new username and password and navigate to: localhost:2403/index.html
+
 ———————
+
 Manual
 
 For Users:
@@ -69,6 +71,7 @@ The Login page is used to log in.
 The Welcome page is used to see all messages details from everyone who submits question form.
 
 ——-
+<<<<<<< HEAD
 #Technology We Used
 
 Languages
@@ -90,3 +93,5 @@ Development Tools
 + Atom
 
 D
+=======
+>>>>>>> 8e4210fc483f1c94f096227b4df045832c406362
