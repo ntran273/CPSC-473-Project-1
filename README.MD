@@ -37,7 +37,15 @@ Register a new username and password and navigate to: localhost:2403/index.html
 
 For Users:
 
-The Home page is able to access the About Us page, the Ask A Question page, and the Contact page.
-The About Us page has information about all the lawyers that use the application and can be asked questions.
-The Contact Us page
+Users have the ability to check information about lawyers and submit a question. 
+The Home page is able to access the About Us page, the Ask A Question page, the login page.
+The About Us page has information about all the lawyers that can be contacted.
+In order to ask a question, there is a button ‘Start Here’ from Home page to redirect to Question Page.
 The Question page has areas to ask a question, give any additional details, choose a legal topic, choose a state or province, provide an email, and give the users full name.
+
+For Lawyers:
+
+Lawyers have the ability to see all messages from users, register an account and login.
+The Register page is used to sign up an account.
+The Login page is used to log in.
+The Welcome page is used to see all messages details from everyone who submits question form.
