@@ -106,20 +106,6 @@ footer {
   margin: 0;
 }
 
-
-/*.button {
-  border: none;
-  border-top: 5px;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  margin: 4px 2px;
-  cursor:pointer;
-  overflow: auto;
-}*/
-
 .button[type=submit] {
   background-color: #4CAF50;
   color: white;
