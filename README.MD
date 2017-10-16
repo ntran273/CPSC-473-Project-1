@@ -1,17 +1,25 @@
 CPSC-473-Project-1
+
 Christian Medina christian.medina@csu.fullerton.edu
+
 Erik Lienhard elienhard@csu.fullerton.edu
+
 Ruth Madrid ruthm11@csu.fullerton.edu
+
 Nguyen Tran ntran272@csu.fullerton.edu
+
 SangYong Jin sangyongjin@csu.fullerton.edu
+
 
 This website is providing services about law and legal issues. Users can ask questions
 including details and types of laws by filling out the online submission form.
 Lawyers have the ability to create an account and login to see all questions that users have sent.
-To login, lawyers must register an account on register.html before logging in
+To login, lawyers must register an account on register.html before logging in.
 
 #Assume user is using Debian-based Linux system
+
 For installation and configuration:
+
 -Acquire the files
 Download all the files from https://github.com/Christian-Medina/CPSC-473-Project-1
 
@@ -28,6 +36,7 @@ Change the url to: localhost:2403/login/register.html
 Register a new username and password and navigate to: localhost:2403/index.html
 
 For Users:
+
 The Home page is able to access the About Us page, the Ask A Question page, and the Contact page.
 The About Us page has information about all the lawyers that use the application and can be asked questions.
 The Contact Us page
