@@ -51,10 +51,15 @@ Download all the files from https://github.com/Christian-Medina/CPSC-473-Project
 
 + Use the following commands into command prompt or the console to create a Deployd application and open the dashboard:
 > $dpd create \<folder name\>
+
 > $cd \<folder name\>
+
 > $dpd -d
-> OR
+
+OR
+
 > $dpd --mongod \<path to mongod.exe\>
+
 > $dpd dashboard
 
 
