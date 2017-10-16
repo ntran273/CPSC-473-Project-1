@@ -56,9 +56,9 @@ Download all the files from https://github.com/Christian-Medina/CPSC-473-Project
 
 > $dpd -d
 
-OR
+>>OR
 
-> $dpd --mongod \<path to mongod.exe\>
+>> $dpd --mongod \<path to mongod.exe\>
 
 > $dpd dashboard
 
