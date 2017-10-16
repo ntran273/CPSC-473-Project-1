@@ -33,6 +33,14 @@ To login, lawyers must register an account on register.html before logging in.
 
 + Project functionality
 
+Our website provides answers to everyone who has problems with law and legal issues.
+1. Users have the ability to ask questions including details and type of laws by filling out the
+online submission form.
+2. In addition, we have some functions for lawyers. Lawyers have the ability to see all questions that users have sent.
+To ensure the privacy, lawyers have to create an account and login before accessing the page. They also have the ability to 
+delete email that they don't want to answer.
+
+
 # Installation and Configuration
 
 #Assume user is using Debian-based Linux system
