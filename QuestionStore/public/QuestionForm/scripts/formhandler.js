@@ -39,7 +39,7 @@
       if(fn(emailAddress)){
         event.target.setCustomValidity('');
       }else{
-        message = emailAddress + ' is not an authorized email address!'
+        message = emailAddress + ' is invalid email address!'
         event.target.setCustomValidity(message);
       }
     });
