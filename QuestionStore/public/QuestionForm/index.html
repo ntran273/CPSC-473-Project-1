@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>question</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/form.css">
-    <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <style>
-      form :focus:required:invalid {
-        border-color: #a94442;
-      }
-    </style>
-  </head>
-  <body>
-    <header class="top-banner">
-      <ul>
-        <li class="company-name">
-          <h1>ABC LAW FIRM </h1>
-          <h2>Online Legal Law Firm Questions</h2>
-        </li>
-        <li><a href="../index.html"><span class="home">Home</span></a></li>
-        <li><a href="../teammember.html"><span class="about">About Us</span></a></li>
-        <li><a href="../login/index.html"><span class="login">Login</span></a></li>
-      </ul>
-    </header>
-    <section>
-      <div class="fmiddle">
-          <div class="panel-body">
-            <h1><center> Ask Us Question</center></h1>
-            <form data-question-make="form">
-              <div class="form-group">
-                <label for="makeQuestion">Question</label>
-                <input class="form-control" name="question" id="makeQuestion" autofocus required pattern="[a-zA-Z1-9?\s]+" />
-              </div>
-              <div class="form-group">
-                <label for="detail">Details</label>
-                <textarea class="form-control" rows="5" id="details" name ="detail" autofocus required></textarea>
-              </div>
-              <div class="form-group">
-                <label for="topic">Legal Topic:</label>
-                <select class="form-control" id="topicType" name="topic" autofocus>
+
+<head>
+  <meta charset="utf-8">
+  <title>question</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/form.css">
+  <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <style>
+    form :focus:required:invalid {
+      border-color: #a94442;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="top-banner">
+    <ul>
+      <li class="company-name">
+        <h1>ABC LAW FIRM </h1>
+        <h2>Online Legal Law Firm Questions</h2>
+      </li>
+      <li><a href="../index.html"><span class="home">Home</span></a></li>
+      <li><a href="../teammember.html"><span class="about">About Us</span></a></li>
+      <li><a href="../login/index.html"><span class="login">Login</span></a></li>
+    </ul>
+  </header>
+  <section>
+    <div class="fmiddle">
+      <div class="panel-body">
+        <h1><center> Ask Us Question</center></h1>
+        <form data-question-make="form">
+          <div class="form-group">
+            <label for="makeQuestion">Question</label>
+            <input class="form-control" name="question" id="makeQuestion" autofocus required pattern="[a-zA-Z1-9?\s]+" />
+          </div>
+          <div class="form-group">
+            <label for="detail">Details</label>
+            <textarea class="form-control" rows="5" id="details" name="detail" autofocus required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="topic">Legal Topic:</label>
+            <select class="form-control" id="topicType" name="topic" autofocus>
                   <option value="default">Select</option>
                   <option value="businessLaw">Business Law</option>
                   <option value="criminalLaw">Criminal Law</option>
@@ -48,10 +50,10 @@
                   <option value="civilrightsLaw">Civil Rights</option>
                   <option value="bankruptcyLaw">Bankruptcy</option>
                 </select>
-              </div>
-              <div class="form-group">
-                <label for="state">State/Province:</label>
-                <select class="form-control" id="stateLocation" name="state" autofocus>
+          </div>
+          <div class="form-group">
+            <label for="state">State/Province:</label>
+            <select class="form-control" id="stateLocation" name="state" autofocus>
                   <option value="default">Select</option>
                         <option value="AK">Alaska</option>
                         <option value="AL">Alabama</option>
@@ -106,42 +108,42 @@
                         <option value="WV">West Virginia</option>
                         <option value="WY">Wyoming</option>
                 </select>
-              </div>
-              <div class="form-group">
-                <label for="emailInput">Email</label>
-                <input class="form-control" type="email" name="emailAddress" id="emailInput" value="" placeholder="email@gmail.com" autofocus required>
-              </div>
-              <div class="form-group">
-                <label for="fullname">Full Name</label>
-                <input class="form-control" name="name" id="fullname" autofocus required pattern="[a-zA-Z\s]+" />
-              </div>
-
-              <button type="submit" class="btn btn-default" >Submit</button>
-            </form>
-
           </div>
+          <div class="form-group">
+            <label for="emailInput">Email</label>
+            <input class="form-control" type="email" name="emailAddress" id="emailInput" value="" placeholder="email@gmail.com" autofocus required>
+          </div>
+          <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input class="form-control" name="name" id="fullname" autofocus required pattern="[a-zA-Z\s]+" />
+          </div>
+
+          <button type="submit" class="btn btn-default">Submit</button> </form>
 
       </div>
 
-    </section>
+    </div>
 
-    <footer>
-      <h2> ® ABC LAW FIRM </h2>
-      <h3> We are non-profit organization to help you answer your legal questions </h3>
-      <h4> 12345 Lawyer St, Garden Grove, CA 92840</h4>
-      <h4> Phone: 1800-LAWYER</h4>
-    </footer>
+  </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
-    <script src="scripts/validation.js" charset="utf-8"></script>
-    <script src="scripts/datastore.js" charset="utf-8"></script>
-    <script src="scripts/store.js" charset="utf-8"></script>
-    <script src="scripts/checklist.js" charset="utf-8"></script>
-    <script src="scripts/formhandler.js" charset="utf-8"></script>
-    <script src="scripts/remotedatastore.js" charset="utf-8"></script>
-    <script src="scripts/main.js" charset="utf-8"></script>
-    <script type="text/javascript" src="../dpd.js"></script>
+  <footer>
+    <h2> ® ABC LAW FIRM </h2>
+    <h3> We are non-profit organization to help you answer your legal questions </h3>
+    <h4> 12345 Lawyer St, Garden Grove, CA 92840</h4>
+    <h4> Phone: 1800-LAWYER</h4>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+  <script src="scripts/validation.js" charset="utf-8"></script>
+  <script src="scripts/datastore.js" charset="utf-8"></script>
+  <script src="scripts/store.js" charset="utf-8"></script>
+  <script src="scripts/checklist.js" charset="utf-8"></script>
+  <script src="scripts/formhandler.js" charset="utf-8"></script>
+  <script src="scripts/remotedatastore.js" charset="utf-8"></script>
+  <script src="scripts/main.js" charset="utf-8"></script>
+  <script type="text/javascript" src="../dpd.js"></script>
 
 
-  </body>
+</body>
+
 </html>
