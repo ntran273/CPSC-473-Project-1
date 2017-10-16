@@ -20,7 +20,7 @@ To login, lawyers must register an account on register.html before logging in.
 
 For installation and configuration:
 
--Acquire the files
+- Acquire the files
 Download all the files from https://github.com/Christian-Medina/CPSC-473-Project-1
 
 - Use the following commands to create a Deployd application and open the dashboard:
