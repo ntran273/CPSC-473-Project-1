@@ -8,7 +8,7 @@ SangYong Jin sangyongjin@csu.fullerton.edu
 This website is providing services about law and legal issues. Users can ask questions
 including details and types of laws by filling out the online submission form.
 Lawyers have the ability to create an account and login to see all questions that users have sent.
-
+To login, lawyers must register an account on register.html before logging in
 
 #Assume user is using Debian-based Linux system
 For installation and configuration:
