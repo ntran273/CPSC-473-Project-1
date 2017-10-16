@@ -39,6 +39,7 @@ Change the url to: localhost:2403/login/register.html
 Register a new username and password and navigate to: localhost:2403/index.html
 
 ———————
+
 Manual
 
 For Users:
