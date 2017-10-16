@@ -26,10 +26,11 @@ SangYong Jin sangyongjin@csu.fullerton.edu
 
 + Project scope
 
-This website is providing services about law and legal issues. Users can ask questions
-including details and types of laws by filling out the online submission form.
-Lawyers have the ability to create an account and login to see all questions that users have sent.
-To login, lawyers must register an account on register.html before logging in.
+Nowadays, everything you work or you do in your life are related with the Law. Everyone must obey the Law.
+Sometimes you have legal issues that you don't know how to solve. You can have advice from friends or family,
+but it does not constitue legal advice. True legal advice forms an agreement between an attorney and you
+based on a particular legal matter you are experiencing. As a non profit organization, we make a website to answer 
+your legal matter that you need to solve. We devote our time to help you get a better answer for your legal issues. 
 
 + Project functionality
 
