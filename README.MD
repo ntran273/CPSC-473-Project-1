@@ -66,11 +66,21 @@ Register a new username and password and navigate to: localhost:2403/index.html
 
 For Users:
 
-Users have the ability to check information about lawyers and submit a question. 
-The Home page is able to access the About Us page, the Ask A Question page, the login page.
-The About Us page has information about all the lawyers that can be contacted.
-In order to ask a question, there is a button ‘Start Here’ from Home page to redirect to Question Page.
-The Question page has areas to ask a question, give any additional details, choose a legal topic, choose a state or province, provide an email, and give the users full name.
+User HomePage
++ Button Start to redirect to question page.
++ Button About Us
+
+Question Page
++ Filling Question
++ Filling detail
++ Choosing type of law
++ Choosing State
++ Filling email
++ Filling name
++ Submit redirect user to the thankyou page.
+
+Thankyou Page
++ Button home to redirect to homepage.
 
 For Lawyers:
 
@@ -82,6 +92,8 @@ Login Page
 Register Page
 + Create username and password
 + Submite Redirect user to the login page
+
+Welcome Page
 
 
 # Technology We Used
