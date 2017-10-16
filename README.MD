@@ -66,7 +66,7 @@ Register a new username and password and navigate to: localhost:2403/index.html
 
 For Users:
 
-User HomePage
+Home page
 + Button Start to redirect to question page.
 + Button About Us
 
@@ -91,9 +91,14 @@ Login Page
 
 Register Page
 + Create username and password
-+ Submite Redirect user to the login page
++ Submit Redirect user to the login page
 
 Welcome Page
++ Able to sign Out
++ Able to read the message
++ Able to delete the message
++ Able to hide the message
++ Able to reply the message via email application
 
 
 # Technology We Used
