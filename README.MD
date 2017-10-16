@@ -30,7 +30,10 @@ This website is providing services about law and legal issues. Users can ask que
 including details and types of laws by filling out the online submission form.
 Lawyers have the ability to create an account and login to see all questions that users have sent.
 To login, lawyers must register an account on register.html before logging in.
-————--------------------------
+
++ Project functionality
+
+# Installation and Configuration
 
 #Assume user is using Debian-based Linux system
 
@@ -51,9 +54,7 @@ At this point localhost:2403/dashboard should be open in your browser.
 Change the url to: localhost:2403/login/register.html
 Register a new username and password and navigate to: localhost:2403/index.html
 
-———————
-
-Manual
+# User Documentation
 
 For Users:
 
@@ -70,9 +71,7 @@ The Register page is used to sign up an account.
 The Login page is used to log in.
 The Welcome page is used to see all messages details from everyone who submits question form.
 
-——-
-<<<<<<< HEAD
-#Technology We Used
+# Technology We Used
 
 Languages
 + HTML5
@@ -80,7 +79,7 @@ Languages
 + CSS3
 
 Front-End
-+ Bootstraip 3.3.7
++ Bootstrap 3.3.7
 + Google Font APIs
 
 Back-End
@@ -92,6 +91,9 @@ Back-End
 Development Tools
 + Atom
 
-D
-=======
->>>>>>> 8e4210fc483f1c94f096227b4df045832c406362
+# Reference Link
+
++ http://docs.deployd.com/docs/collections/reference/dpd-js.html
++ https://www.w3schools.com/css/
+
+
