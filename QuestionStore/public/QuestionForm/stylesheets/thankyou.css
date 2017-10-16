@@ -1,66 +1,64 @@
 /*if we use css*/
 
-ul {
+ul{
   list-style-type: none;
   overflow: hidden;
   background-color: #2B2D42
 }
 
-li {
+li{
   color: white;
   float: left;
 }
 
-li a {
+li a{
   display: block;
   color: white;
   padding: 50px 50px;
   text-decoration: none;
 }
 
-body {
+body{
   font-family: 'Open Sans', sans-serif;
   margin: 0;
 }
 
-footer {
+footer{
   background-color: #2B2D42;
   text-align: center;
   margin: 0 auto;
   padding: 30px;
   max-width: 2000px;
   overflow: auto;
-  padding: 30px;
-  color: white;
+	padding: 30px;
+  color:white;
 }
 
-.company-name h1 {
+.company-name h1{
   font-family: 'Caeat', cursive;
   font-size: 50px;
   margin-bottom: 0;
   margin-top: 0 auto;
 }
 
-.company-name h2 {
+.company-name h2{
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   margin-top: 0;
 }
 
-.home, .about, .login {
+.home,.about,.login{
   width: 50px;
   font-size: 25px;
   font-style: bold;
   position: absolute;
 }
 
-
 /*.content-intro{
   position: absolute;
   left: 150px;
 }*/
-
-.content-intro {
+.content-intro{
   background-image: url("http://www.icytales.com/wp-content/uploads/2015/09/Love-vs-Logic.jpg");
   height: 100%;
   background-position: center;
@@ -73,37 +71,42 @@ footer {
   overflow: auto;
 }
 
-.content-intro h1 {
+.content-intro h1{
   font-size: 50px;
 }
 
-.content-intro h2 {
+
+.content-intro h2{
   font-size: 40px;
+
 }
 
-.company-name {
+
+.company-name{
   position: relative;
   left: auto;
 }
 
-.home {
+.home{
   right: 450px;
 }
 
-.about {
+.about{
   right: 320px;
   word-spacing: normal;
   white-space: nowrap;
 }
 
-.login {
+.login{
   right: 150px;
 }
 
-.top-banner {
+.top-banner{
   overflow: auto;
   margin: 0;
 }
+
+
 
 .button {
   background-color: white;
@@ -116,6 +119,6 @@ footer {
   display: inline-block;
   font-size: 15px;
   margin: 4px 2px;
-  cursor: pointer;
+  cursor:pointer;
   overflow: auto;
 }
